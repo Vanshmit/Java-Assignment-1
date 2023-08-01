@@ -63,3 +63,9 @@ public class Main {
         bookStack.walkAndReportTitles();
     }
 }
+
+OUTPUT FOR THIS CODE: 
+Titles of Books in the Stack:
+Title1
+Title2
+Title3
