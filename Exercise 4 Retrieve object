@@ -67,3 +67,16 @@ public class Main {
         }
     }
 }
+
+
+OUTPUT FOR THIS CODE :
+All Students:
+Name: Anjali, ID: 101, Grade: 85.5
+Name: Jetha Lal, ID: 102, Grade: 90.0
+Name: Champak Lal, ID: 103, Grade: 78.2
+Name: Babita Gada, ID: 104, Grade: 95.8
+
+Students with Grades above 85.0:
+Name: Anjali, ID: 101, Grade: 85.5
+Name: Jetha Lal, ID: 102, Grade: 90.0
+Name: Babita Gada, ID: 104, Grade: 95.8
