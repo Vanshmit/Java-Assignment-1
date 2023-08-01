@@ -82,3 +82,41 @@ public class TrafficSimulation {
         }
     }
 }
+
+OUTPUT FOR THIS CODE:
+Cars in the Traffic Simulation:
+Blue car driving SOUTH
+Pink car driving WEST
+Green car driving NORTH
+Red car driving EAST
+Green car driving WEST
+Blue car driving NORTH
+Pink car driving WEST
+Blue car driving SOUTH
+Pink car driving WEST
+Green car driving SOUTH
+// ... And so on until all 20 cars ...
+
+Traffic Report - Cars by Color and Direction:
+Color: Green
+	Direction: NORTH, Count: 1
+	Direction: SOUTH, Count: 2
+	Direction: WEST, Count: 4
+	Direction: EAST, Count: 1
+Color: Blue
+	Direction: NORTH, Count: 2
+	Direction: WEST, Count: 2
+	Direction: SOUTH, Count: 2
+	Direction: EAST, Count: 2
+Color: Red
+	Direction: EAST, Count: 1
+	Direction: WEST, Count: 1
+	Direction: SOUTH, Count: 1
+	Direction: NORTH, Count: 1
+Color: Pink
+	Direction: WEST, Count: 7
+	Direction: EAST, Count: 1
+	Direction: NORTH, Count: 1
+	Direction: SOUTH, Count: 1
+Color: Orange
+	Direction: NORTH, Count: 1
