@@ -93,3 +93,29 @@ public class Main {
         return athletes;
     }
 }
+
+OUTPUT FOR THIS CODE:
+Name: Jethalal, Age: 25, Sport: Soccer
+Name: Champaklal, Age: 28, Sport: Basketball
+Name: Mehta sahab, Age: 30, Sport: Running
+Name: Anjali, Age: 22, Sport: Tennis
+Name: Rao sabh, Age: 27, Sport: Swimming
+Name: Elvish Yadav, Age: 24, Sport: Gymnastics
+Name: Tapu, Age: 26, Sport: Baseball
+Name: Selfish, Age: 29, Sport: Cycling
+Name: Daniel , Age: 23, Sport: Volleyball
+Name: Babita Gada, Age: 31, Sport: Badminton
+
+Patients in the Queue:
+Name: Jethalal, Age: 25, Sport: Soccer
+Name: Champaklal, Age: 28, Sport: Basketball
+Name: Mehta sahab, Age: 30, Sport: Running
+Name: Anjali, Age: 22, Sport: Tennis
+Name: Rao sabh, Age: 27, Sport: Swimming
+Name: Elvish Yadav, Age: 24, Sport: Gymnastics
+Name: Tapu, Age: 26, Sport: Baseball
+Name: Selfish, Age: 29, Sport: Cycling
+Name: Daniel , Age: 23, Sport: Volleyball
+Name: Babita Gada, Age: 31, Sport: Badminton
+
+
