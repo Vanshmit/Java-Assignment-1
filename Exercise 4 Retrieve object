@@ -50,10 +50,10 @@ public class Main {
     public static void main(String[] args) {
         StudentLinkedList list = new StudentLinkedList();
 
-        list.addStudent(new Student("Alice", 101, 85.5));
-        list.addStudent(new Student("Bob", 102, 90.0));
-        list.addStudent(new Student("Charlie", 103, 78.2));
-        list.addStudent(new Student("David", 104, 95.8));
+        list.addStudent(new Student("Anjali", 101, 85.5));
+        list.addStudent(new Student("Jetha Lal", 102, 90.0));
+        list.addStudent(new Student("Chamapak Lal", 103, 78.2));
+        list.addStudent(new Student("Babita Gada", 104, 95.8));
 
         System.out.println("All Students:");
         list.printStudents();
