@@ -88,3 +88,20 @@ public class Main {
         list.printStudentsInReverse();
     }
 }
+
+OUTPUT FOR THIS CODE:
+
+Printing Students Forward:
+Name: Anjali Mehta, ID: 101, Grade: 85.5
+Name: Jetha lal, ID: 102, Grade: 90.0
+Name: Champak lal, ID: 103, Grade: 78.2
+
+Printing Students Backward:
+Name:Champak lal , ID: 103, Grade: 78.2
+Name:Jetha lal, , ID: 102, Grade: 90.0
+Name: Anjali Mehta, ID: 101, Grade: 85.5
+
+Printing Students in Reverse:
+Name: Champak lal, ID: 103, Grade: 78.2
+Name: Jetha lal, ID: 102, Grade: 90.0
+Name: Ajali Mehta, ID: 101, Grade: 85.5
