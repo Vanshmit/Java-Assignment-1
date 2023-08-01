@@ -22,3 +22,15 @@ public class DatingSchedule {
         }
     }
 }
+
+Day 1: John is dating Friend 1
+Day 1: John is dating Friend 2
+Day 1: John is dating Friend 3
+Day 1: John is dating Friend 4
+Day 1: John is dating Friend 5
+Day 2: John is dating Friend 5
+Day 2: John is dating Friend 4
+Day 2: John is dating Friend 3
+Day 2: John is dating Friend 2
+Day 2: John is dating Friend 1
+// ... And so on until Day 10 ...
