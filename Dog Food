@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class RetrievingDogFood {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numPieces = 5; // Number of pieces of dog food stolen (change as needed)
+        int attempts = 3; // Number of attempts the player has to retrieve the dog food
+
+        System.out.println("Your dog's food has been stolen!");
+        System.out.println("You need to retrieve " + numPieces + " pieces of dog food within " + attempts + " attempts.");
+        System.out.println("Good luck!\n");
+
+        int remainingPieces = numPieces;
+
+        for (int attempt = 1; attempt <= attempts; attempt++) {
+            System.out.println("Attempt " + attempt + ": How many pieces of dog food would you like to retrieve?");
+            int retrievedPieces = scanner.nextInt();
+
+            if (retrievedPieces >= 1 && retrievedPieces <= remainingPieces) {
+                remainingPieces -= retrievedPieces;
+                System.out.println("Great job! You retrieved " + retrievedPieces + " pieces of dog food.");
+                System.out.println("Remaining pieces to retrieve: " + remainingPieces + "\n");
+
+                if (remainingPieces == 0) {
+                    System.out.println("Congratulations! You retrieved all the dog food!");
+                    break;
+                }
+            } else {
+                System.out.println("Invalid input. Please enter a valid number of pieces to retrieve.\n");
+            }
+        }
+
+        if (remainingPieces > 0) {
+            System.out.println("Sorry, you did not retrieve all the dog food.");
+        }
+
+        scanner.close();
+    }
+}
